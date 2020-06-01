@@ -581,13 +581,120 @@ public class BasicosSecuencial {
 		
 		System.out.println("tu numero es: "+numero);*/
 		
+		//Escribe un programa java que declare una variable A de tipo entero y asígnale un valor. A continuación muestra un mensaje indicando si A es par o impar. Utiliza el operador condicional ( ? : ) dentro del println para resolverlo.
+		
+	       /* int A = 14;
+	        System.out.println(A + (A%2==0 ? " es par " : " es impar "));  */
+		
+		//Escribe un programa java que declare una variable B de tipo entero y asígnale un valor. A continuación muestra un mensaje indicando si el valor de B es positivo o negativo. Consideraremos el 0 como positivo. Utiliza el operador condicional ( ? : ) dentro del println para resolverlo.
+		/*int A = -1;
+        System.out.println(A + (A<0 ? " es negativo " : " es positivo "));  */
+        
+		/*System.out.println("introduce un numero ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+        int A = sc.nextInt();
+        System.out.println(A + (A<0 ? " es negativo " : " es positivo "));  
+        System.out.println(A + (A%2==0 ? " es par " : " es impar ")); 
+        System.out.println(A + (A%10==0 ? " es multiplo de 10 " : " no es multiplo de 10 "));
+        System.out.println(A + (A%5==0 ? " es multiplo de 5 " : " no es multiplo de 5 "));
+        System.out.println(A + (A<100 ? " es menor de 100 " : " es mayor de 100 "));*/
+	
+		//bucles for, while, do while, de 100 a 0 y de 0 a 100
+		
+		/*int a = 0;
+		
+		do {
+			a++;
+			System.out.println(a);
+			
+		} while (a<100);
+		
+		for (int i = 1; i < 100; i++) {
+			System.out.println(i);
+			
+		}
+		
+		int c = 100;
+		
+		do {
+			c--;
+			System.out.println(c);
+			
+		} while (a<100);
+		
+		for (int i = 100; i > 0; i--) {
+			System.out.println(i);
+			
+		}
+		
+		int d = 100 ;
+		
+		while (d>0) {
+			System.out.println(d);
+			d--;
+		}*/
+		
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("inserte un numero mayor a 1");
+		
+		int s = sc.nextInt() ;
+		sc.close();
+		while (s>1) {
+			System.out.println(s);
+			s--;
+		}*/
 		
 		
 		
+		/*Scanner sc = new Scanner(System.in);
+		System.out.println("inserte un numero mayor a 1");
+		int mayor = sc.nextInt() ;
+		
+		System.out.println("inserte un numero menor de 100");
+		int menor = sc.nextInt() ;
+				
+		sc.close();
+		while (menor<mayor) {
+			System.out.println(menor);
+			menor++;
+		}*/
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("inserte un numero:");
+		int numero1 = sc.nextInt() ;
+		
+		System.out.println("inserte un segundo numero;");
+		int numero2 = sc.nextInt() ;
+				
+		sc.close();
+		if (numero1 < numero2) {
+			while (numero1<numero2) {
+				if (numero1%2==0) {
+					System.out.println(numero1);
+					
+				}	
+				numero1++;
+			}
+			
+		}else {
+			while (numero1>numero2) {
+				if (numero1%2==0) {
+					System.out.println(numero1);
+					
+				}	
+				numero1--;
+			}
+			
+			
+			
+			
+			
+		}
 		
 		
 		
-
 					
 	}	
 	
