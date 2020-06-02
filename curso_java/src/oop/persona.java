@@ -7,9 +7,11 @@ public class persona {
 	
 	private String nombre;
 	private String apellido ;
+	private int edad;
 	
 	//constructor
 	
+
 	public persona(String nombre, String apellido) {
 		
 		//la mejor manera de generarlo es llamando a la funcion
@@ -22,6 +24,27 @@ public class persona {
 		this.apellido=apellido;*/
 		
 	}
+	public persona(int edad, String nombre) {
+		
+		setEdad(edad);
+		setNombre(nombre);
+	}
+	
+	
+	public void mayorMenor(int edad) {
+		
+		if (edad>=18) {
+			System.out.println("eres mayor de edad");
+			
+		}else {
+			System.out.println("eres menor de edad");
+		}
+		
+	}
+	
+	
+	
+	
 	
 	public persona(String nombre) {
 		this(nombre, null);
@@ -31,8 +54,15 @@ public class persona {
 		this("anonimo", null);
 	}
 	
-	//metodos de acceso getter y setter
-	
+	//metodos de acceso getter(mostrar datos) y setter(insertar datos)		
+	public int getEdad() {
+		return edad;
+	}
+
+	public void setEdad(int edad) {
+		this.edad = edad;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}
