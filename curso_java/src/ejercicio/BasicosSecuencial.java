@@ -661,7 +661,7 @@ public class BasicosSecuencial {
 			menor++;
 		}*/
 		
-		Scanner sc = new Scanner(System.in);
+		/*Scanner sc = new Scanner(System.in);
 		System.out.println("inserte un numero:");
 		int numero1 = sc.nextInt() ;
 		
@@ -688,17 +688,37 @@ public class BasicosSecuencial {
 			}
 			
 			
+		}*/
+		
+		/*Scanner sc = new Scanner(System.in);
+		
+		int [] numero = new int[10];
+		//rellenar datos en array
+		for (int i = 0; i < numero.length; i++) {
+			System.out.println(i+ "inserte un numero");
 			
+			numero[i] = sc.nextInt();
 			
-			
+		}
+		//mostrar datos array
+		
+		for (int i = 0; i < numero.length; i++) {
+			System.out.println(numero[i]);
 		}
 		
 		
 		
+		
 					
-	}	
+	}	*/
+		
+		
+		
+		
+		
+		
 	
-
+	}
 				
 
 }
