@@ -2,7 +2,7 @@ package poo;
 
 import java.util.Scanner;
 
-import oop.matematicas;
+import oop.arrayMenorMayor;
 
 //import oop.persona;
 
@@ -50,7 +50,7 @@ public class consolaPOO1 {
 		System.out.println("esta es la superficie del cuadrado: " + cuadro.superficie(lado));*/
 		
 		
-		
+		//ejercicio 4
 		
 		/*empleado empleado = new empleado();
 		
@@ -72,8 +72,8 @@ public class consolaPOO1 {
 
 		sc.close();*/
 		
-		
-		matematicas mate = new matematicas();
+		//ejercicio 5
+	/*	matematicas mate = new matematicas();
 		
 		int numero1;
 		int numero2;
@@ -99,7 +99,45 @@ public class consolaPOO1 {
 		
 		mate.matematicas(opcion);
 		
-		sc.close();
+		sc.close();*/
+		
+		
+		//ejercicio 6
+		
+		arrayMenorMayor num = new arrayMenorMayor();
+		
+		
+		//meter datos array
+		
+		/*for (int i = 0; i < numero.length; i++) {
+			
+			System.out.println("inserte un numero: ");
+			numero[i]= sc.nextInt();
+		}
+		
+		//mostrar datos array
+		for (int i = 0; i < numero.length; i++) {
+			
+			System.out.println(numero[i]);
+			
+		}*/
+		
+		System.out.println("inserte 5 valores: ");
+		
+		 int a1=sc.nextInt();
+		 sc.nextLine();
+		 int a2=sc.nextInt();
+		 sc.nextLine();
+		 int a3=sc.nextInt();
+		 sc.nextLine();
+		 int a4=sc.nextInt();
+		 sc.nextLine();
+		 int a5=sc.nextInt();
+		 sc.nextLine();
+		 
+		 num.numero(a1, a2, a3, a4, a5);
+		 
+		
 		
 		
 		
