@@ -24,7 +24,7 @@ public class Alumno {
 			sc.nextLine();
 
 		}
-
+			sc.close();//no cerrar porseacaso
 	}
 	
 	public Alumno(String nombre, int[] notas) {
@@ -114,5 +114,6 @@ public class Alumno {
 	public String toString() {
 		return "Alumno: nombre=" + nombre + ", notas=" + Arrays.toString(notas);
 	}
+	
 
 }

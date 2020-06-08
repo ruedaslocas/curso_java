@@ -6,7 +6,7 @@ public class matematicas {
 	private int numero2;
 	private int opcion;
 
-	public void matematicas(int opcion) {
+	public /*void*/matematicas(int opcion) {
 		int resultado;
 		setOpcion(opcion);
 

@@ -91,6 +91,8 @@ public class POO3 {
 		for (i = 0; cuadros[i] != null; i++) {
 			System.out.println(cuadros[i]);
 		}
+		sc.close();
 	}
+
 
 }

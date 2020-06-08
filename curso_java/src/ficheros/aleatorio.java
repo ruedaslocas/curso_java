@@ -18,9 +18,9 @@ public class aleatorio {
 	
 	
 	
-	private static int dado (int caras) {
+	/*private static int dado(int caras) {
 		//ponemos un return
 		return (int)(Math.random()*6)+1;
-	}
+	}*/
 
 }

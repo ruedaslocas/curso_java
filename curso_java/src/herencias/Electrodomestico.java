@@ -34,5 +34,4 @@ public class Electrodomestico {
 		this.precio = precio2;
 	}
 
-
 }

@@ -1,12 +1,11 @@
 package herencias;
 
-
 public class TelevisionPlana extends Televisor {
 
 	private String tipo;
 
-	public TelevisionPlana(double pul, String tipo, double precio, String nombre ) {
-		
+	public TelevisionPlana(double pul, String tipo, double precio, String nombre) {
+
 		super(pul, nombre, precio);
 		setTipo(tipo);
 
@@ -21,12 +20,11 @@ public class TelevisionPlana extends Televisor {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-	
 
 	// toString
 	@Override
 	public String toString() {
-		return "\n------------"+ super.toString()+"\ntipo: " + tipo + "\n"+"\n------------------";
+		return "\n------------" + super.toString() + "\ntipo: " + tipo + "\n" + "\n------------------";
 	}
 
 }

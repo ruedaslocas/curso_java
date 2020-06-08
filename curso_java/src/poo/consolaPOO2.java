@@ -43,7 +43,7 @@ public class consolaPOO2 {
 		} while (repetir);
 		System.out.println("adios!");
 
-		
+		sc.close();
 	
 		
 	}
