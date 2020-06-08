@@ -7,7 +7,6 @@ import oop.cuadro;
 public class POO3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
 		
@@ -68,11 +67,10 @@ public class POO3 {
 
 					restaurado = true;
 					
-					String res = "si";
+					
 					//cuadro.setRestaurado(restaurado);
 				}else {
 					restaurado = false;
-					String res = "no";
 				}
 				
 				System.out.println("precio del cuadro: ");
