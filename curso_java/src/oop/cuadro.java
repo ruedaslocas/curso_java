@@ -6,7 +6,7 @@ public class cuadro {
 	private String autor;
 	private int altura;
 	private int anchura;
-	private int año;
+	private int a�o;
 	private boolean restaurado;
 	private double precio;
 
@@ -24,12 +24,12 @@ public class cuadro {
 	
 	
 
-	public cuadro(String titulo, String autor, int altura, int anchura, int año, boolean restaurado, double precio) {
+	public cuadro(String titulo, String autor, int altura, int anchura, int a�o, boolean restaurado, double precio) {
 		this.titulo = titulo;
 		this.autor = autor;
 		this.altura = altura;
 		this.anchura = anchura;
-		this.año = año;
+		this.a�o = a�o;
 		this.restaurado = restaurado;
 		this.precio = precio;
 	}
@@ -41,7 +41,7 @@ public class cuadro {
 	@Override
 	public String toString() {
 		return "\n<-------------------------------------------->\ntitulo: " + titulo + "\nAutor: " + autor + "\naltura: " + altura + "\nanchura: " + anchura
-				+ "\naño: " + año + "\nrestaurado: " + restaurado + "\nprecio: " + precio + "\n<-------------------------------------------->";
+				+ "\naño: " + a�o + "\nrestaurado: " + restaurado + "\nprecio: " + precio + "\n<-------------------------------------------->";
 	}
 
 	// geter y setter
@@ -77,12 +77,12 @@ public class cuadro {
 		this.anchura = anchura;
 	}
 
-	public int getAño() {
-		return año;
+	public int getA�o() {
+		return a�o;
 	}
 
-	public void setAño(int año) {
-		this.año = año;
+	public void setA�o(int a�o ){
+		this.a�o = a�o;
 	}
 
 	public boolean isRestaurado() {
