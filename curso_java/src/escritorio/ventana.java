@@ -24,7 +24,7 @@ public class ventana {
 		JFrame ventana = new JFrame("Ventana de ejemplo desde Java");
 		ventana.setBounds(100, 200, 500, 400);
 		
-		
+		//prueba
 		Container contenedor = ventana.getContentPane();
 		
 		LayoutManager lm;
