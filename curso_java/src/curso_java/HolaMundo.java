@@ -16,14 +16,14 @@ public class HolaMundo {
 
 	public static void main(String[] args) throws IOException {
 		//
-		int aÒos = 27;
+		int anio = 27;
 		String nombre = "Alex";
 		String coche = "audi";
 		String pais = "espa√±a";
 		
 		
 		//imprimir en pantalla hla mundo 
-		System.out.printf("hola mundo "+"mi nombre es "+nombre+" tengo "+aÒos+" a√±os, soy de "+pais+" y tengo un "+coche);
+		System.out.printf("hola mundo "+"mi nombre es "+nombre+" tengo "+anio+" a√±os, soy de "+pais+" y tengo un "+coche);
 		
 		
 		//charAt

@@ -19,7 +19,7 @@ public class POO3 {
 		 String autor;
 		 int altura;
 		 int anchura;
-		 int año;
+		 int anio;
 		 boolean restaurado = false;
 		 double precio;
 		 String s;
@@ -53,7 +53,7 @@ public class POO3 {
 
 				System.out.println("introduce el aÃ±o del cuadro: ");
 
-				año = sc.nextInt();
+				anio = sc.nextInt();
 				sc.nextLine();
 				//cuadro.setAÃ±o(aÃ±o);
 
@@ -79,7 +79,7 @@ public class POO3 {
 				sc.nextLine();
 				//cuadro.setPrecio(precio);
 				
-				cuadros[i] = new cuadro(titulo, autor, altura, anchura, año, restaurado, precio);
+				cuadros[i] = new cuadro(titulo, autor, altura, anchura, anio, restaurado, precio);
 				i++;
 
 				
