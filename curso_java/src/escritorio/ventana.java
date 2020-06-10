@@ -1,6 +1,7 @@
 package escritorio;
 
 import java.awt.Container;
+import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
@@ -25,6 +26,8 @@ public class ventana {
 		
 		
 		Container contenedor = ventana.getContentPane();
+		
+		LayoutManager lm;
 		contenedor.setLayout(null);
 		
 		//creacion de label "titulo"
